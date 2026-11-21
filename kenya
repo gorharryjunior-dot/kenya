@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kenya - Pride of East Africa</title>
+  <style>
+    /* Reset and Base Styles */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+
+    body {
+      background-color: #090d0b;
+      color: #f4f6f5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    /* Main Profile Card */
+    .card {
+      background-color: #131a16;
+      border: 1px solid #24332b;
+      border-radius: 16px;
+      max-width: 600px;
+      width: 100%;
+      overflow: hidden;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+    }
+
+    /* Header Banner inspired by the Kenyan Flag */
+    .banner {
+      height: 120px;
+      background: linear-gradient(180deg, #000000 0%, #990000 50%, #006600 100%);
+    }
+
+    /* Profile Content */
+    .content {
+      padding: 0 30px 30px;
+      position: relative;
+    }
+
+    .avatar {
+      width: 90px;
+      height: 90px;
+      border-radius: 50%;
+      background-color: #006600;
+      color: #ffffff;
+      font-size: 32px;
+      font-weight: bold;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 4px solid #ffffff;
+      margin-top: -45px;
+      margin-bottom: 15px;
+      letter-spacing: 1px;
+    }
+
+    h1 {
+      font-size: 26px;
+      margin-bottom: 4px;
+      letter-spacing: 0.5px;
+    }
+
+    .subtitle {
+      color: #9ca3af;
+      font-size: 14px;
+      margin-bottom: 16px;
+    }
+
+    .bio {
+      line-height: 1.6;
+      color: #d1d5db;
+      font-size: 15px;
+      margin-bottom: 24px;
+    }
+
+    /* Highlights Grid */
+    h2 {
+      font-size: 15px;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      color: #9ca3af;
+      margin-bottom: 12px;
+    }
+
+    .highlights {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 12px;
+      margin-bottom: 24px;
+    }
+
+    .highlight-item {
+      background-color: #1a241e;
+      padding: 12px;
+      border-radius: 8px;
+      border: 1px solid #24332b;
+      transition: border-color 0.2s ease;
+    }
+
+    .highlight-item:hover {
+      border-color: #bb0000;
+    }
+
+    .highlight-item strong {
+      display: block;
+      color: #4ade80;
+      margin-bottom: 4px;
+      font-size: 15px;
+    }
+
+    .highlight-item span {
+      font-size: 13px;
+      color: #9ca3af;
+    }
+
+    /* National Motto Footer */
+    blockquote {
+      border-left: 3px solid #bb0000;
+      padding-left: 14px;
+      font-style: italic;
+      color: #d1d5db;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <div class="banner"></div>
+    <div class="content">
+      <div class="avatar">KE</div>
+      <h1>REPUBLIC OF KENYA</h1>
+      <p class="subtitle">East Africa &bull; Capital: Nairobi</p>
+      
+      <p class="bio">
+        Located along the Indian Ocean in East Africa, Kenya is renowned for its dramatic landscapes, diverse wildlife reserves, rich cultural heritage, and fast-growing technology hub known as the "Silicon Savannah."
+      </p>
+
+      <h2>Key Highlights</h2>
+      <div class="highlights">
+        <div class="highlight-item">
+          <strong>Maasai Mara</strong>
+          <span>World-Famous Safari &amp; Great Migration</span>
+        </div>
+        <div class="highlight-item">
+          <strong>Mount Kenya</strong>
+          <span>Africa's Second-Highest Peak</span>
+        </div>
+        <div class="highlight-item">
+          <strong>Nairobi</strong>
+          <span>Regional Tech &amp; Financial Hub</span>
+        </div>
+        <div class="highlight-item">
+          <strong>Diani &amp; Mombasa</strong>
+          <span>White Sand Indian Ocean Coastline</span>
+        </div>
+        <div class="highlight-item">
+          <strong>Lake Victoria</strong>
+          <span>Freshwater Fishing &amp; Island Views</span>
+        </div>
+        <div class="highlight-item">
+          <strong>Athletics</strong>
+          <span>Global Champions in Distance Running</span>
+        </div>
+      </div>
+
+      <blockquote>
+        "Harambee" — All pull together (National Motto)
+      </blockquote>
+    </div>
+  </div>
+
+</body>
+</html>
